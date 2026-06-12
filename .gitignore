@@ -1,24 +1,23 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
 .venv/
 venv/
 *.egg-info/
 dist/
 
-# Environment
+# Env & secrets
 .env
+*.env.local
 
-# Uploads
-uploads/
+# App data
+backend/uploads/
+backend/*.db
 
-# Database
-*.db
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
 
 # macOS
 .DS_Store
-
-# Node
-node_modules/
-.next/
